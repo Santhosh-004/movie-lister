@@ -21,7 +21,7 @@ export default function Info({ col, open }) {
             <div>
                 <p>{col.overview}</p>
                 <div className="flex justify-between px-2 mt-4">
-                    <Progress value={col.vote_average * 10} size="lg" className="px-1 py-1 bg-black bg-opacity-30 xs:w-6/12 w-9/12 mt-2.5" color="amber"/>
+                    <Progress value={col.vote_average * 10} size="lg" className="px-1 py-1 bg-black bg-opacity-30 w-8/12 sm:w-9/12 mt-2.5" color="amber"/>
                     <h2 className="text-2xl bg-amber-600 rounded-lg px-2 drop-shadow-lg shadow-black">{col.vote_average}</h2>
                 </div>
             </div>
