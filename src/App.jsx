@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import CollectionCard from "./moviecard.jsx";
 
+
 //144ba809
 //75ea07fc935e3b512210d71898bb19dd
 
@@ -24,8 +25,8 @@ const App = () => {
     //results[0].original_title
 
     return (
-        <div className="App container border-2 border-black mx-auto text-center text-slate-200">
-            <div className="Head text-6xl mt-3 font-semibold">
+        <div className="App container mx-auto text-center text-blue-gray-50">
+            <div className="Head text-6xl mt-3 font-semibold ">
                 <h1>Movie Lister</h1>
             </div>
             <div className="Search mt-3">
