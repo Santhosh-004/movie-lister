@@ -8,7 +8,7 @@ import CollectionCard from "./moviecard.jsx";
 
 const App = () => {
 
-    let [search, setsearch] = useState("superman");
+    let [search, setsearch] = useState("shinchan");
     let [multi, setMulti] = useState([]);
 
     useEffect(() => {
