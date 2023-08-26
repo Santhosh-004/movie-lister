@@ -25,7 +25,7 @@ export default function Info({ col, open }) {
                     <h2 className="text-2xl bg-amber-600 rounded-lg px-2 drop-shadow-lg shadow-black">{col.vote_average}</h2>
                 </div>
             </div>
-            <Button className="text-white text-md mt-3" onClick={() => window.open(col.media_type == "movie" ? `https://www.themoviedb.org/movie/${col.id}` : `https://www.themoviedb.org/tv/${col.id}`)}>Go to TMDB</Button>
+            <Button className="text-white text-md mt-3 select-none" onClick={() => window.open(col.media_type == "movie" ? `https://www.themoviedb.org/movie/${col.id}` : `https://www.themoviedb.org/tv/${col.id}`)}>Go to TMDB</Button>
         </div>
       </Dialog>
     </>
