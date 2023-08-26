@@ -27,7 +27,7 @@ const App = () => {
     return (
         <div className="App container mx-auto text-center text-blue-gray-50">
             <div className="Head text-6xl mt-3 font-semibold ">
-                <h1>Movie Lister</h1>
+                <h1>TV Lister</h1>
             </div>
             <div className="Search mt-3">
                 <input id="search-value" className="outline-none border-2 border-indigo-600 rounded-md m-2 py-1 px-4 text-indigo-700 w-4/6 box-border" value={search} onChange={(e)=>{setsearch(e.target.value)}}/>
