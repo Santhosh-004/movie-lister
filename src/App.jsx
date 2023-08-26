@@ -36,7 +36,7 @@ const App = () => {
                     }
                 }>GO</button>
             </div>
-            <div className="collection grid gap-20 mt-10 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 border-2 border-black p-10">
+            <div className="collection grid gap-20 mt-5 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 border-2 border-black p-10">
                 {multi.map((col) => {
                     return col.poster_path != null ? <CollectionCard col={col}/> : null;
                 })}
