@@ -12,7 +12,7 @@ import {
 export default function Info({ col, open }) {
   return (
     <>
-      <Dialog open={open} className="p-3 text-center text-white bg-opacity-10 h-5/6 overflow-scroll">
+      <Dialog open={open} className="p-3 text-center text-white bg-opacity-10 h-5/6 mt-0 overflow-scroll">
       <Typography variant="h2">{col.title}</Typography>
         <div className="sm:grid grid-cols-2">
             <div className="w-60 mx-auto m-4">
