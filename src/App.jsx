@@ -33,7 +33,6 @@ const App = () => {
                 <input id="search-value" className="outline-none border-2 border-indigo-600 rounded-md m-2 py-1 px-4 text-indigo-700 w-4/6 box-border" value={search} onChange={(e)=>{setsearch(e.target.value)}}/>
                 <button className="m-2 border-2 border-indigo-600 py-1 px-4 rounded-sm active:bg-indigo-600 active:text-slate-50" onClick={async () => {
                         await fetcher(search);
-                        console.log(multi); 
                     }
                 }>GO</button>
             </div>
