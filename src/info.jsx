@@ -13,7 +13,7 @@ export default function Info({ col, open }) {
   return (
     <>
       <Dialog open={open} className="p-3 text-center text-white bg-opacity-10 h-5/6 overflow-scroll">
-      <Typography variant="h1">{col.title}</Typography>
+      <Typography variant="h2">{col.title}</Typography>
         <div className="sm:grid grid-cols-2">
             <div className="w-60 mx-auto m-4">
                 <img className="rounded-xl" src={`https://image.tmdb.org/t/p/original/${col.poster_path}`} alt="poster" />
